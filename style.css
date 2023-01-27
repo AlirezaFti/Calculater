@@ -1,0 +1,161 @@
+﻿.all {
+    background-color: black;
+    width: 30vw;
+    height: 100%;
+    border-radius: 16px;
+    padding: 15px;
+    margin: 50px auto;
+    display: table;
+    margin-top: 20px;
+}
+
+.number {
+    width: 100%;
+    height: 12vh;
+    border: 0px;
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 54px;
+    margin-left: 5px;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine,
+.sexthLine {
+    width: 100%;
+}
+
+button {
+    width: 22%;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #FE9E09;
+    font-size: 24px;
+    margin: 2px;
+    font-weight: bold;
+    border: 0;
+    transition: all .5s;
+    outline: 0;
+}
+
+.division:hover {
+    background-color: #ffffff;
+    color: #FE9E09;
+}
+
+.multiplication:hover {
+    background-color: #ffffff;
+    color: #FE9E09;
+}
+
+.submission:hover {
+    background-color: #ffffff;
+    color: #FE9E09;
+}
+
+.total:hover {
+    background-color: #ffffff;
+    color: #FE9E09;
+}
+
+.equal:hover {
+
+    background-color: #ffffff;
+    color: #FE9E09;
+}
+
+.clear:hover {
+    background-color: black;
+    color: #A5A5A5;
+}
+
+.backspace:hover {
+    background-color: black;
+    color: #A5A5A5;
+}
+
+.one:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.two:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.three:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.four:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.five:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.six:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.seven:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.eight:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.nine:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.decimal:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+.zero:hover{
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.space {
+    opacity: 0;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.decimal,
+.zero {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.clear,
+.backspace {
+    background-color: #A5A5A5;
+}
+
+.division,
+.multiplication,
+.submission,
+.total,
+.equal {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.backspace p {
+    font-weight: bold;
+    font-size: 40px;
+}
